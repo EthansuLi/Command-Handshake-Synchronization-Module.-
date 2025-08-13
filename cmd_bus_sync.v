@@ -1,8 +1,17 @@
-// -----------------------------------------------------------------------------
-// Author : Ethansu Li
-// File   : cmd_bus_sync.v
-// DATE	  : 8/9,2025
-// -----------------------------------------------------------------------------
+//***************************************
+//COPYRIGHT(C)2025,EthasuLi
+//All rights reserved.
+//Module Name  : cmd_bus_sync.v
+//
+//Author       : EthasuLi
+//Email        : 13591028146@163.com
+//Data         : 2025/8/5
+//Version      : V 1.0
+//
+//Abstract     : 
+//Called by    :
+//
+//****************************************  
 
 module cmd_bus_sync#(
 	parameter CMD_WIDTH	= 16;
@@ -73,6 +82,7 @@ always@(posedge dst_clk or negedge dst_rst) begin
 		endcase	
 	end
 end
+
 
 
 
